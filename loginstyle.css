@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Trebuchet MS;
+    background-image: url(BG.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#36454F, #b8138e);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: rgb(198, 79, 204),rgb(224, 128, 168),;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #f7a6ea;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 650px;
+    height: 500px;
+    background-color: #535353;
+    display: flex;
+    margin-top: 90px;
+}
+.section1{
+    width: 60%;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+}
+.section2{
+    width: 90%;  
+}
+.section2 > img{
+    width: 90%;
+    height: 90%;
+    margin: 10px 0px 0px 8px;
+}
+h5{
+    margin-top: -22px;
+}
+label{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(154, 154, 154);
+}
+input{
+    border: none;
+    width: 80%;
+    border-bottom: 1px lightgray;
+    background-color: #FBFBFB;
+    position: relative;
+    top: -10px;
+    padding: 7px;
+}
+input:focus {
+    outline: none !important;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+}
+#password:focus{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p{
+    font-size: small;
+}
+.line{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-top: 50px;
+}
+.socialIcons{
+    display: flex;
+    margin-top: 5px;
+}
+.icon{
+    margin: 10px 7px;
+    position: relative;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 12px;
+    line-height: 25px;
+}
+.fab{
+    position: relative;
+    left: 6px;
+}
+.fb > .fab {
+    position:relative;
+    left: 8px;
+}
+h6{
+    position:relative;
+    top: -8px;
+    font-size: 12px;
+}
+.icon:hover, #btn:hover{
+    box-shadow: 0 0 25px rgba(8, 8, 8, 0.2);
+    background-color: rgb(182, 49, 93);
+}
+
+input[type="submit"]{
+    width: 210px;
+    height: 35px;
+    margin-top: 50px;
+    border: none;
+    background-color: #df2eb8;
+    color: #F9FBF9;
+    font-size: 18px;
+    cursor: pointer; 
+  }
+  .habacc{
+      text-align: center;
+      color: #0f0f0f;
+      font-size: 15px;
+      margin-top: 10px;
+  }
+  .habacc a{
+      color: #e959ad;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+  }
